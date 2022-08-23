@@ -14,7 +14,7 @@ print("In the above return function , use keyword arguments when calling the fun
 def SimpleFunction(x,y):
     result = "First Value : ",x,"Seconed Value : ",y
     return x,y
-print(SimpleFunction(2,3))
+print(SimpleFunction(y=2,x=3))
    
 print(dash)
 
